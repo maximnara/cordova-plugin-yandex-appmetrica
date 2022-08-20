@@ -13,12 +13,13 @@ Sample project to use is available at [sample/][GitHubSAMPLE].
 
 ## Installation
 ```bash
-cordova plugin add yandex-appmetrica-plugin-cordova
+cordova plugin add cordova-plugin-yandex-appmetrica
+npm i cordova-plugin-yandex-appmetrica -S
 ```
 
 It is also possible to install via repo url directly *(not recomended)*:
 ```bash
-cordova plugin add https://github.com/yandexmobile/metrica-plugin-cordova.git
+cordova plugin add https://github.com/maximnara/cordova-plugin-yandex-appmetrica.git
 ```
 
 ## AppStore submit notice
@@ -30,6 +31,9 @@ As Yandex AppMetrica uses idfa for attributing app installations you need to sel
 advertisement**.
 
 ## Changelog
+
+### Version 1.1.1
+* Fix README
 
 ### Version 1.1.0
 * Updated versions of the AppMetrica SDK (only Android 5.0.1).
