@@ -1,5 +1,9 @@
 # AppMetrica Cordova Plugin
 
+## This project is fork of official AppMetrica project.
+### This project just updates Android sdk for new Google rules about geo location data collection.  
+
+---
 ## Documentation
 Common documentation available on [AppMetrica official site][DOCUMENTATION]. 
 Documentation for this plugin will be published soon. 
@@ -26,6 +30,9 @@ As Yandex AppMetrica uses idfa for attributing app installations you need to sel
 advertisement**.
 
 ## Changelog
+
+### Version 1.1.0
+* Updated versions of the AppMetrica SDK (only Android 5.0.1).
 
 ### Version 1.0.0
 * Updated versions of the AppMetrica SDK (iOS 3.7.1 and Android 3.6.4).
